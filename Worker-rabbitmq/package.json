@@ -1,0 +1,21 @@
+{
+  "name": "smarticuworker",
+  "version": "1.0.0",
+  "description": "worker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js",
+    "start:dev": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
